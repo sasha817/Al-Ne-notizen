@@ -20,8 +20,8 @@ The next bits of knowledge are found as [a 6 years old post](https://bluescreeng
 >
 >  1. Wenn Port 80 zum NAS nicht dauerhaft geöffnet ist: Port freigeben
 >  2. per SSH als admin auf NAS einloggen
->  3. mit sudo -s zum root werden
->  4. /usr/syno/sbin/syno-letsencrypt renew-all -vv
+>  3. mit `sudo -s` zum root werden
+>  4. `/usr/syno/sbin/syno-letsencrypt renew-all -vv`
 >  5. Webserverdienst neu starten oder alternativ NAS neu starten
 
 I see two problems here, however. Having local access to Synology NAS and port 80 open to external access is not that good idea, so in case of remote access I'd rather prefer VPN and then "kind-of-local" access to NAs. In my case the access is local, within the network, at least one problem solved.
