@@ -14,8 +14,7 @@ Simple approach would be to have Grafana displaying some data, which will be gat
 
 ### Installing Prometheus
 
-Basic idea is taken from [Install Prometheus Server on CentOS 7 / RHEL 7
-](https://computingforgeeks.com/install-prometheus-server-on-centos-rhel/?expand_article=1) article. Some adoptions apply thou.
+Basic idea is taken from [Install Prometheus Server on CentOS 7 / RHEL 7](https://computingforgeeks.com/install-prometheus-server-on-centos-rhel/?expand_article=1) article. Some adoptions apply thou.
 
 What I liked a lot in Josphat's approach is isolating prometheus in its' own user with no shell access.
 
@@ -171,8 +170,7 @@ My system is not accessible from outside world, so I will skip setting password 
 
 ### Installing node_exporter
 
-We assume that Prometheus and Grafana are already running. The base is, again [Monitor Linux Server Performance with Prometheus and Grafana in 5 minutes
-](https://computingforgeeks.com/monitor-linux-server-with-prometheus-grafana/?expand_article=1).
+We assume that Prometheus and Grafana are already running. The base is, again [Monitor Linux Server Performance with Prometheus and Grafana in 5 minutes](https://computingforgeeks.com/monitor-linux-server-with-prometheus-grafana/?expand_article=1).
 
 Let's get `node_exporter`:
 
