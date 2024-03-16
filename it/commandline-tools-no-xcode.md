@@ -11,3 +11,7 @@ Luckily, Apple keeps the support forums running and [the solution is there](http
 Try and error way leads to one usable result: Command Line Tools for XCode 13.4 are compatible with macOS 12.6.6.
 
 Fin.
+
+---
+
+_Created/last modified 16.03.24_
