@@ -10,4 +10,8 @@ Fragen? a.nedovizzi(at)muenchen-mail.de
 - [Let's Encrypt cert update for Synology DSM](it/synology-letsencrypt.md)
 - [Linux monitoring with Prometheus & co](it/linux-monitoring.md)
 - [Installing old command line tools in old macOS with no XCode](it/commandline-tools-no-xcode.md)
+
+### ExifTool and Co
+
 - [ExifTool vs Windows: cd into network path](it/win-network-drive.md)
+- [Copying exif from one file to another](exiftool/exif-copy.md)
