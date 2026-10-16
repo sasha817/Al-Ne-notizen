@@ -1,0 +1,28 @@
+title: Meine Notizen
+description: Notizen und Anleitungen, die zu groß für Google Keep sind
+lang: de
+
+theme: minima
+
+# Use README.md as the landing page and process plain .md files without front matter
+plugins:
+  - jekyll-readme-index
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+
+# Turn links like [x](it/foo.md) into working .html links
+relative_links:
+  enabled: true
+  collections: false
+
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collection: false
+
+# Not part of the site
+exclude:
+  - Gemfile
+  - Gemfile.lock
